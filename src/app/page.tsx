@@ -41,7 +41,7 @@ function Homepage() {
           </div>
         </div>
         {/* right side  */}
-        <div className="md:h-28 md:w-64 md:pt-6 lg:w-80 lg:h-40 lg:pt-9 ">
+        <div className="md:h-28 md:w-64 md:pt-6 lg:w-80 lg:h-40 lg:pt-12 ">
           <div className="flex justify-center pt-8 md:pt-0">
             <Image
               className="w-60 h-60 rounded-full md:hidden "
