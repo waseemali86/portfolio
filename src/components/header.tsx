@@ -11,7 +11,7 @@ import {
 
 function Header() {
   return (
-    <nav className="w-full h-14 bg-slate-100 md:max-w-7xl cursor-pointer flex justify-between px-6  md:px-6 md:mt-1 md:flex md:justify-between items-center">
+    <nav className="w-full h-14 bg-slate-100 md:max-w-7xl cursor-pointer select-none flex justify-between px-6  md:px-6 md:mt-1 md:flex md:justify-between items-center">
       <div>
         <h1 className="text-orange-600 text-2xl font-bold hover:text-neutral-900  md:hover:text-neutral-900">
           Waseem.

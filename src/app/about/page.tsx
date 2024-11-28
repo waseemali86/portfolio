@@ -1,7 +1,7 @@
 import Image from "next/image";
 function About() {
   return (
-    <div className="bg-slate-200 text-center py-10">
+    <div className="bg-slate-200 text-center select-none py-10">
       <h1 className="text-4xl md:text-6xl font-bold pt-6 text-orange-500 hover:text-black">
         About me
       </h1>

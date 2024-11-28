@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Contact() {
   return (
-    <main className="flex flex-col md:max-w-7xl bg-slate-200 cursor-pointer ">
+    <main className="flex flex-col md:max-w-7xl bg-slate-200 cursor-pointer select-none ">
       <div className="md:grid md:grid-cols-12 gap-8 mx-14">
         <h4 className="md:col-span-8 text-3xl font-bold hover:text-orange-500 py-5 hidden md:block">
           Leave Us Your Info

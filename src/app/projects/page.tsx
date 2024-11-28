@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Project() {
   return (
-    <div className="bg-slate-200 py-36 md:max-w-7xl cursor-pointer ">
+    <div className="bg-slate-200 py-36 md:max-w-7xl cursor-pointer select-none ">
       <div className="text-center text-4xl font-bold md:hover:text-orange-500">
         <h2>Recent Projects</h2>
       </div>

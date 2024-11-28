@@ -1,10 +1,10 @@
 import Image from "next/image";
 function Footer() {
   return (
-    <footer className="md:max-w-7xl bg-slate-200 pt-8 ">
+    <footer className="md:max-w-7xl bg-slate-200 pt-8 select-none ">
       <div className="w-full h-auto cursor-pointer bg-white rounded-xl text-lg ">
         <div className="text-center">
-          <p className="text-3xl font-bold pt-4 ">Portfolio</p>
+          <p className="text-3xl font-bold pt-4 hover:text-orange-500 ">Portfolio</p>
         </div>
         <div>
         <div className="flex justify-center gap-5 pt-2 ">

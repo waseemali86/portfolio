@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Project from "@/app/projects/page";
 import Contact from "@/app/contact/page";
-import Footer from "@/components/footer";
 import About from "@/app/about/page";
 
 function Homepage() {
   return (
-    <main className="bg-slate-200 md:max-w-7xl cursor-pointer ">
+    <main className="bg-slate-200 md:max-w-7xl cursor-pointer select-none ">
       <div className="flex flex-col-reverse md:flex-row md:h-96 lg:h-auto bg-white pb-10  md:pb-16 mx-1 md:mx-1 md:flex md:justify-between lg:justify-around">
         {/* left side */}
         <div className="text-center md:text-left mt-4 lg:pt-32 md:pt-20 md:pl-20 lg:pl-2">
@@ -147,7 +146,6 @@ function Homepage() {
       </div>
       <Project />
       <Contact />
-      <Footer />
     </main>
   );
 }
